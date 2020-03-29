@@ -25,6 +25,7 @@
     "@testing-library/react": "^10.0.1",
     "babel-jest": "^25.2.3",
     "babel-loader": "^8.1.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "jest": "^25.2.3"
   },
   "scripts": {
