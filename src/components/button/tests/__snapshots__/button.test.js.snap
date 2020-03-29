@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render as expended 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-AxjAm cFExar"
+    type="primary"
+  >
+    Test label
+  </button>
+</DocumentFragment>
+`;

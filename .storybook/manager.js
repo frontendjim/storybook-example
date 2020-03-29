@@ -1,5 +1,10 @@
 import { addons } from '@storybook/addons';
 
+setTimeout(function() {
+  addons.elements.panel['storybookjs/knobs/panel'].title = 'Props';
+  addons.elements.panel['storybook/actions/panel'].title = 'Events';
+}, 0);
+
 addons.setConfig({
   /**
    * show story component as full screen
