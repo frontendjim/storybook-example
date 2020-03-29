@@ -4,7 +4,7 @@ import { withKnobs, text, select, boolean } from '@storybook/addon-knobs';
 import { withA11y } from '@storybook/addon-a11y';
 import { withTests } from '@storybook/addon-jest';
 
-import results from '../../docs/jest-test-results.json';
+import results from '../../.jest-test-results.json';
 
 import Button from '../../src/components/button';
 

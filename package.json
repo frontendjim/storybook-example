@@ -30,9 +30,9 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -c .storybook -o docs && yarn test:generate-output",
+    "build-storybook": "yarn test:generate-output && build-storybook -c .storybook -o docs",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:generate-output": "jest --json --outputFile=./docs/jest-test-results.json"
+    "test:generate-output": "jest --json --outputFile=./.jest-test-results.json"
   }
 }
